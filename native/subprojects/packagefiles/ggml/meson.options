@@ -1,0 +1,2 @@
+option('vulkan', type: 'feature', value: 'enabled', yield: true, description: 'Build the Vulkan backend')
+option('cpu_native', type: 'boolean', value: false, description: 'Build the CPU backend with -march=native instead of x86-64-v3')

@@ -1,0 +1,36 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "fastdiffusion:scale_6",
+      "generator": {
+        "type": "fastdiffusion:terrain",
+        "settings": "fastdiffusion:scale_6",
+        "scale": 6,
+        "biome_source": {
+          "type": "fastdiffusion:terrain"
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      }
+    }
+  }
+}

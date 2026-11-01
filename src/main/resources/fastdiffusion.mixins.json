@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.phrolova.compat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DhChunkyStartupMixin",
+    "DhChunkyGenerationMixin",
+    "OrePlacementMixin",
+    "PalettedContainerMixin",
+    "ChunkMapAccessor",
+    "ChunkGenerationTaskMixin",
+    "BiomeDecorationMixin",
+    "ChunkSerializerMixin",
+    "LightSectionStorageAccessor",
+    "SurfaceSkyLightMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,1 @@
+option('vulkan', type: 'feature', value: 'enabled', description: 'Build ggml with the Vulkan backend')
